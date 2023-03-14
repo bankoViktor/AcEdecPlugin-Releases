@@ -1,3 +1,4 @@
-### Release 1.0.0.1
+### Release 0.1.0.0
 
-- Test auto updater
+- Some test tools
+- Add auto updater
