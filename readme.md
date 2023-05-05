@@ -1,6 +1,23 @@
 # Release Notes
 
 
+## [0.3.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.3.0.0) (2023-05-05)
+
+### New Features
+- Automatic check available update on startup AutoCAD.
+- Added command `CIRCUITBREAKERSEOL` for drawing one line service entrance rated circuit breaker symbol.
+- Added command `CIRCUITBREAKEROL` for drawing one line generic enclosed circuit breaker symbol.
+
+### Improvements
+- Updated dialog and details dialog.
+- Updated Dry-Transformer detail.
+
+### Bug Fixes
+- Removed not implemented `WIRESCHEDULEROW` command.
+- Fixed working `DEMOLITION` command on plugin created rectangles.
+- Fixed company name to upper case in `UTILITYTFROL` command.
+
+
 ## [0.2.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.2.0.0) (2023-04-29)
 
 ### Bug Fixes
