@@ -1,6 +1,12 @@
 # Release Notes
 
 
+## [0.2.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.2.0.0) (2023-04-29)
+
+### Bug Fixes
+- Fixed error in creating line type in `WIRELABELFULL` command.
+
+
 ## [0.1.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.1.0.0) (2023-04-29)
 
 ### New Features
