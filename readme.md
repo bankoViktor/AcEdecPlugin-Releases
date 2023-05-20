@@ -1,5 +1,29 @@
 # Release Notes
 
+## [0.4.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.4.0.0) (2023-05-20)
+
+### New Features
+- Added command `MTSNONSEROL` for drawing one line manual transfer switch symbol.
+- Added command `ATSNONSEROL` for drawing one line automatic transfer switch symbol.
+- Added command `ATSSEROL` for drawing one line service entrance rated automatic transfer switch symbol.
+- Added command `NONATSNONSEROL` for drawing one line non-automatic transfer switch symbol.
+- Added command `NONATSSEROL` for drawing one line service entrance rated non-automatic transfer switch symbol.
+- Added `Reset` button for set to default values for properties in options window.
+- Added command `UTILITYSPLICINGOL` for drawing one line utility splicing symbol.
+- Added command `JUNCTIONBOXOL` for drawing one line junction box symbol.
+- Added command `CONDULETOL` for drawing one line condulet symbol.
+- Added command `WIREWAYOL` for drawing one line wireway symbol.
+- Added command `MANHOLEOL` for drawing one line manhole symbol.
+- Added command `HANDHOLEOL` for drawing one line handhole symbol.
+- Added command `GENERATORSTATIONARYOL` for drawing one line stationary generator symbol (exclude notes).
+
+### Improvements
+- The insertion point for some components changed to convenience.
+- Added CB ARC note for generic circuit breaker and main breaker component.
+
+### Bug Fixes
+- Fixed place SPD note for Automatic transfer switch (SER).
+
 
 ## [0.3.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.3.0.0) (2023-05-05)
 
