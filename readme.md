@@ -1,5 +1,19 @@
 # Release Notes
 
+## [0.5.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.5.0.0) (2023-05-26)
+
+### New Features
+- Added command `GENERATORWALKINOL` for drawing one line walk-in generator symbol.
+
+### Improvements
+- Added note for stationary generator commponent.
+- Added "Exernal SPD" option for service entrance rated transfer switches.
+
+### Bug Fixes
+- Increased the output power list (up to 2000kW) in stationary generator command `GENERATORSTATIONARYOL`.
+- Changed cable label template (removed GND) for utility transformer.
+
+
 ## [0.4.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.4.0.0) (2023-05-20)
 
 ### New Features
