@@ -1,5 +1,11 @@
 # Release Notes
 
+## [0.6.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.6.0.0) (2023-06-05)
+
+### New Features
+- Added command `NOTESGEN` for configure and drawing notes.
+
+
 ## [0.5.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.5.0.0) (2023-05-26)
 
 ### New Features
