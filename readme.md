@@ -1,5 +1,11 @@
 # Release Notes
 
+## [0.6.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.6.1.0) (2023-06-06)
+
+### Bug Fixes
+- Fixed error drawing secondary graphics.
+
+
 ## [0.6.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.6.0.0) (2023-06-05)
 
 ### New Features
