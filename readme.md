@@ -1,5 +1,28 @@
 # Release Notes
 
+## [0.7.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.7.0.0) (2023-07-11)
+
+### New Features
+- Added command `MINIPOWERZONEOL` for drawing one line mini-power zone symbol.
+- Added command `MINIPANELBOARDOL` for drawing one line mini panelboard symbol.
+- Added command `MINIPANELBOARDSEOL` for drawing one line service entrance rated mini panelboard symbol.
+
+### Improvements
+- Changed generators notes.
+- Changed text height to 0.1" for generators legend.
+- Removed '(BY GEN. VENDOR)' for existing walk-in generator symbol.
+- Appended signal descriptions for existing stationary generator symbol.
+- Appended signal descriptions for existing transfer switch symbols.
+
+### Bug Fixes
+- Fixed error drawing secondary graphics.
+- Fixed memory leak for unmanaged objects.
+- Fixed SPD model prefix to 'CAT#: '.
+- Fixed formatting power lines description.
+- Removed '(NOTE X)' for existing utility transformer.
+- Fixed SPD cable label on 'EXISTING CABLES/CONDUIT' in ATS-SER and MB-SER components.
+
+
 ## [0.6.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.6.1.0) (2023-06-06)
 
 ### Bug Fixes
