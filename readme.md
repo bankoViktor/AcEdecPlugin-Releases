@@ -15,7 +15,6 @@
 - Appended signal descriptions for existing transfer switch symbols.
 
 ### Bug Fixes
-- Fixed error drawing secondary graphics.
 - Fixed memory leak for unmanaged objects.
 - Fixed SPD model prefix to 'CAT#: '.
 - Fixed formatting power lines description.
