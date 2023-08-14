@@ -1,5 +1,31 @@
 # Release Notes
 
+## [0.8.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.8.0.0) (2023-08-15)
+
+### New Features
+- Added new tutorial video: Что такое измерительные инструменты и для чего они нужны? #1.
+- Added site plan symbol for Utility transformer.
+
+### Improvements
+- Fixed back moving of view when a command canceled.
+- Changed notes list marker to number.
+- Changed default cable label to 'X #X & 1 #X GND IN X" C.'.
+- Added AIC value to the Mini-Power zone one line symbol.
+- Chagned row vertical align to left middle for schedule table.
+- Changed other line type for Main Breaker SER and Mini-Panelboard SER one line symbols.
+- Added detail label for Mini-Power zone component.
+
+### Bug Fixes
+- Chagned SER specification on 'SERVICE ENTRANCE RATED' for Main breaker (SER) and Mini-Panelboard (SER).
+- Removed double 'SERVICE ENTRANCE RATED' specification for Mini-Panelboard (SER).
+- Changed color for a note reference for utility transformer.
+- Fixed the syntax error in the note row in the Mini-Power zone schedule.
+- Added dot for Mini-Panelboard like 'CKT.'.
+- Fixed memory leak for MText in MLeader.
+- Fixed aborting the active placement command.
+- Fixed cell align for panelboard schedule.
+
+
 ## [0.7.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.7.0.0) (2023-07-11)
 
 ### New Features
