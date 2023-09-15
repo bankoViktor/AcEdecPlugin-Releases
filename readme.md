@@ -1,5 +1,57 @@
 # Release Notes
 
+## [0.9.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.9.0.0) (2023-09-15)
+
+### New Features
+- Added new tutorial video: Принципы и основы подшивки проекта - Теория.
+- Added warning message to the Power Meter one line symbol: 'For In Line ≤ 300A and for With CT's > 300A'.
+- Added warning message to the Mini-Panelboard SER one line symbol: 'MB ≤ 600A, Branch CB ≤ 225A'.
+- Added command `POWERMETERSP` for drawing Power meter site plan symbol.
+- Added command `DRYTFRSP` for drawing Dry-Transformer site plan symbol.
+- Added command `MINIPOWERZONESP` for drawing Mini-Power Zone site plan symbol.
+- Added command `PANELBOARDSP` for drawing Panelboard site plan symbol.
+- Added command `CIRCUITBREAKERSERSP` for drawing Circuit Breaker SER site plan symbol.
+- Added command `CIRCUITBREAKERSP` for drawing Circuit Breaker site plan symbol.
+- Added command `MTSSP` for drawing MTS site plan symbol.
+- Added command `ATSSP` for drawing ATS site plan symbol.
+- Added command `ATSSERSP` for drawing ATS SER site plan symbol.
+- Added command `NONATSSP` for drawing Non-ATS site plan symbol.
+- Added command `NONATSSERSP` for drawing Non-ATS SER site plan symbol.
+- Added command `JUNCTIONBOXSP` for drawing Junction Box site plan symbol.
+- Added command `WEATHERHEAD` for drawing Weatherhead site plan symbol.
+- Added command `MANHOLESP` for drawing Manhole site plan symbol.
+- Added command `HANDHOLESP` for drawing Handhole site plan symbol.
+- Added command `HANDHOLEDT` for drawing Handhole Detail site plan symbol.
+- Added command `WIREWAYSP` for drawing Wire Way site plan symbol.
+- Added command `SPDSP` for drawing SPD site plan symbol.
+- Added command `DBLINE` for drawing Duck Bank line for site plan.
+- Added command `DBGRADE` for drawing Duck Bank Grade symbol.
+- Added command `DBCONDUIT` for drawing Duck Bank Conduit symbols.
+- Added command `DBTEXT` for drawing Duck Bank Template text.
+- Added command `DBLEGEND` for drawing Duck Bank Legend symbol.
+- Added command `GENERATORSTATIONARYSP` for drawing Stationary Generator site plan symbol (BETA).
+- Added 16 reference pictures.
+
+### Improvements
+- Changed Circuit Breaker (One Line) command: `CIRCUITBREAKERSEOL` to `CIRCUITBREAKERSEROL`.
+- Chagned Mini-Panelboard (One Line) command: `MINIPANELBOARDSEOL` to `MINIPANELBOARDSEROL`.
+- Chagned ATS (One Line) command: ATSNONSEROL to `ATSOL`.
+- Chagned Non-ATS (One Line) command: `NONATSNONSEROL` to `NONATSOL`.
+- Chagned MTS (One Line) command: `MTSNONSEROL` to `MTSOL`.
+- Added orthogonal mode for Area mode of Demolition tool.
+- Added Polyline mode of Demolition tool.
+- Changed NEMA rating lists.
+- Changed notes list marker to "Xn".
+
+### Bug Fixes
+- Removed the GND conductor for input of the Main Breaker one line symbol.
+- Changed the pole number (1PH -> 2P and 3PH -> 3P) for the Panelboard one line symbol.
+- Fixed wrong drawing previews of tutorial videos and pictures.
+- Fixed title of option windows.
+- Chagned the signal name to 'ATS IN EMERGENCY POSITION' in generators note.
+- Fixed tutorial window layout items.
+
+
 ## [0.8.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.8.0.0) (2023-08-15)
 
 ### New Features
