@@ -1,6 +1,6 @@
 # Release Notes
 
-## [0.10.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-09-21)                                                                    ^^^^^^^   ^^^^^^^^^^
+## [0.10.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-09-21)
 
 ### New Features
 - Added command `GNDOL` for drawing Ground Ring/Triangle one line symbol.
