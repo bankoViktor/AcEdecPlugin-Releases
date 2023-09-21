@@ -1,5 +1,19 @@
 # Release Notes
 
+## [0.10.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-09-21)                                                                    ^^^^^^^   ^^^^^^^^^^
+
+### New Features
+- Added command `GNDOL` for drawing Ground Ring/Triangle one line symbol.
+
+### Improvements
+- The Generator command for the site plan has been completed.
+
+### Bug Fixes
+- Added Underground Duct Banks title to the `DBGRADE` command.
+- Fixed wrong layer for site plan symbols.
+- Fixed site plan descriptions of symbols.
+
+
 ## [0.9.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.9.0.0) (2023-09-15)
 
 ### New Features
