@@ -1,6 +1,6 @@
 # Release Notes
 
-## [0.11.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-10-12)
+## [0.11.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.11.0.0) (2023-10-12)
 
 ### New Features
 - Added command `DEMOLITIONLEGEND` for drawing Demolition Legend symbol.
