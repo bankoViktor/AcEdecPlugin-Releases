@@ -1,5 +1,24 @@
 # Release Notes
 
+## [0.11.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-10-12)
+
+### New Features
+- Added command `DEMOLITIONLEGEND` for drawing Demolition Legend symbol.
+- Added command `PANELBOARDOL` for drawing Panelboard one line symbol.
+
+### Improvements
+- The number of rod wells set to red color for generator note.
+- Moved origin point for Duct Bank legend.
+- Added disappearance the 'Main Breaker Size' property for the 'Main Device' property equal 'MLO' for Mini-Panelboard component.
+
+### Bug Fixes
+- Fixed color entities for the `DBLEGEND` command.
+- Changed the pole number (1PH -> 2P and 3PH -> 3P) for the Panelboard SER and Mini-Power Zone one line symbol.
+- Fixed AIC value for the Panelboard, Panelboard SER and Mini-Power Zone one line symbol.
+- Swaped schedule table values 'Voltage (L-N)' and 'Voltage (L-L)' of properties for Mini-Power Zone one line symbol.
+- Fixed layout of the Detail block reference.
+
+
 ## [0.10.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.10.0.0) (2023-09-21)
 
 ### New Features
