@@ -1,5 +1,24 @@
 # Release Notes
 
+## [0.12.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.12.0.0) (2023-10-24)
+
+### New Features
+- Added command `MOTORSTARTEROL` for drawing Enclosed Motor Starter one line symbol.
+- Added command `CONTROLPANELOL` for drawing Control Panel one line symbol.
+- Added command `DISCONNECTSWITCHOL` for drawing Disconnec Switch one line symbol.
+- Added command `DISCONNECTSWITCHFUSEOL` for drawing Disconnec Switch Fuse one line symbol.
+- Added command `MOTOROL` for drawing Motor one line symbol.
+
+### Improvements
+- Added 360 notes to the note generator.
+- Added CB notes for generators.
+- Added spaces for generators one line symbols.
+- Added demolition legend command to one line ribbon tab.
+
+### Bug Fixes
+- Replace NEMA rating value "3R SS" to "4X SS" for panelboards.
+
+
 ## [0.11.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.11.0.0) (2023-10-12)
 
 ### New Features
