@@ -1,5 +1,21 @@
 # Release Notes
 
+## [0.13.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.13.0.0) (2023-10-25)
+
+### New Features
+- Added command `PULLBOXOL` for drawing Pull Box one line symbol.
+- Added command `PULLBOXSP` for drawing Pull Box site plan symbol.
+
+### Improvements
+- Added 'FLC' reference property for Motor one line symbol.
+- Changed publish files name (.PDF) to 'XXXXX_NN', where XXXXX - a project number and NN - ordered number.
+- Replaced local color to layer color for existing schedules tables.
+
+### Bug Fixes
+- Added reference cable label for Motor one line symbol.
+- Removed 'MANUAL' drop-down menu item of 'Horsepower' property for Motor one line symbol, if the phase quantity is not defined.
+
+
 ## [0.12.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.12.0.0) (2023-10-24)
 
 ### New Features
