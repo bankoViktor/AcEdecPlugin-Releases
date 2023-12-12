@@ -1,5 +1,28 @@
 # Release Notes
 
+## [0.14.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.0.0) (2023-12-12)
+
+### New Features
+- Added command `GNDSP` for drawing Triangle Grounding one line symbol.
+- Added command `SWITCHBOARDOL` for drawing Switchboard one line symbol.
+- Added command `MOTORCONTROLCENTEROL` for drawing Motor Control Center one line symbol.
+- Added command `PUMPCONTROLPANELOL` for drawing Pump Control Panel one line symbol.
+- Added command `PUMPCONTROLPANELSP` for drawing Pump Control Panel site plan symbol.
+- Added command `SUBMERSIBLEPUMPOL` for drawing Submersible Pump one line symbol.
+- Added command `GENERATORRESEPTACLEOL` for drawing Portable Generator Receptacle one line symbol.
+- Added command `GENERATORCAMLOCKBOXOL` for drawing Generator Cam Lock Receptacle one line symbol.
+
+### Improvements
+- Changed Duct Bank linetypes to: direct, conctete and reinforced concrete.
+- Added new DB linetypes to command `DBLINE`.
+- Added 36 notes to the note generator.
+
+### Bug Fixes
+- Added 'V' letter after voltages for Dry-Transformer one line symbol.
+- Fixed default value of NEMA rating to '3X SS' for Mini-Panelboard one line symbol.
+- Added refer to note to leader for Manhole site plan symbol.
+
+
 ## [0.13.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.13.0.0) (2023-10-25)
 
 ### New Features
