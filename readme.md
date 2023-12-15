@@ -1,5 +1,11 @@
 # Release Notes
 
+## [0.14.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.1.0) (2023-12-15)
+
+### Bug Fixes
+- Swapped generator legend items.
+
+
 ## [0.14.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.0.0) (2023-12-12)
 
 ### New Features
