@@ -1,5 +1,15 @@
 # Release Notes
 
+## [0.14.2.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.2.0) (2023-12-20)
+
+### Improvements
+- Added description 'DENOTES EQUIPMENT WILL BE BACKED UP BY GENERATOR' to generator legend.
+- Aligned generator legend by left bottom corner (base point).
+
+### Bug Fixes
+- Fixed huge text for some components.
+
+
 ## [0.14.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.1.0) (2023-12-15)
 
 ### Bug Fixes
