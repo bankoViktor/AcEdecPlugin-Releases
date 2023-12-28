@@ -1,5 +1,29 @@
 # Release Notes
 
+## [0.15.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.15.0.0) (2023-12-28)
+
+### New Features
+- Added `MCC_CB` to MCC circuit breaker one line symbol.
+- Added `MCC_FVNR` to MCC FVNR-starter one line symbol.
+- Added `MCC_FVR` to MCC FVR-starter one line symbol.
+- Added `MCC_RVSS` to MCC RVSS one line symbol.
+- Added `MCC_VFD` to MCC VFD one line symbol.
+
+### Improvements
+- Added 'DUTY/STAND-BY' to Submersible Pump one line symbol.
+- Added parameters to Submersible Pump one line symbol and details.
+- Changed NEMA 'SS' to 'STAINLESS STEEL' for CB/MB/MTS/ATS/NON-ATS.
+- Changed one line generator note.
+- Removed amps of main circuit breaker in generator note.
+- Changed one line note for Pump Contro Panel (Lift Station).
+- Changed conductors label for transfer switches.
+- Removed 'Is ..' in option label.
+
+### Bug Fixes
+- Fixed note of Pump Control Panel for Lift Station.
+- Fixed low case for main device title in panelboard one line symbols.
+
+
 ## [0.14.2.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.14.2.0) (2023-12-20)
 
 ### Improvements
