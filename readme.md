@@ -1,5 +1,30 @@
 # Release Notes
 
+## [0.16.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.16.0.0) (2024-01-16)
+
+### New Features
+- Added "smart" MCC rectangle.
+- Added `PRESSURETRANSDUCEROL` to Pressure Transducer one line symbol.
+- Added `BACKUPFLOATSWITCHOL` to Back-Up Float Switch one line symbol.
+- Added `GENERATORRESEPTACLESP` to Portable Generator Receptacle site plan symbol.
+- Added `GENERATORCAMLOCKBOXSP` to Generator Cam Lock Connection Box site plan symbol.
+- Added 'Minimum Size Equipment Grounding' tutorial image.
+
+### Improvements
+- Changed 'SS' to 'STAINLESS STEEL' in PCP note.
+- Changed VFD item in PCP note.
+- Changed VFD symbol (in/out phase) for PCP one line symbol.
+- Changed DB legend line thickness to 0.1 inch.
+
+### Bug Fixes
+- Handhole installation detail title.
+- Lift Station pump Seal-Off note.
+- Lift Station Pump Control Panel site plan symbol.
+- Fixed wire of 'E' (Emergency) terminal in Manual Transfer Switch one line.
+- Fixed refer panelboard schedule text position in Panelboard Mini one line.
+- Fixed Detail Lable block references.
+
+
 ## [0.15.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.15.0.0) (2023-12-28)
 
 ### New Features
