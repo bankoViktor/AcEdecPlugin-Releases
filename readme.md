@@ -1,5 +1,45 @@
 # Release Notes
 
+## [0.17.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.17.0.0) (2024-02-12)
+
+### New Features
+- Added command `WETWELLVAULTOL` for drawing one line hazardous areas.
+- Added command `WETWELLVAULTSP` for drawing one line leaders and labels.
+- Added command `SUBMERSIBLEPUMPSP` for drawing Submersible Pump site plan symbol.
+- Added command `PRESSURETRANSDUCERSP` for drawing Submersible Pressure Transducer site plan symbol.
+- Added command `BACKUPFLOATSWITCHSP` for drawing Back-Up Level Float Switch site plan symbol.
+- Added command `EQUIPRACK` for drawing Equipment Rack site plan symbol.
+- Added command `FLOWMETEROL` for drawing Magnetic Flow Meter one line symbol.
+- Added command `FLOWMETERSP` for drawing Magnetic Flow Meter site plan symbol.
+- Added command `LEVELSENSORPROBEOL` for drawing Level Sensor Probe one line symbol.
+- Added command `LEVELSENSORPROBESP` for drawing Level Sensor Probe site plan symbol.
+- Added command `SECURITYLIGHTOL` for drawing Security Light one line symbol.
+- Added command `SECURITYLIGHTSP` for drawing Security Light site plan symbol.
+- Added command `FLOATSWITCHOL` for drawing Level Float Switches one line symbol.
+- Added command `FLOATSWITCHSP` for drawing Level Float Switches site plan symbol.
+- Added detail steps to site plan generator command: Bonding Lugs and Plates, Ground Test Well and Generator Grounding.
+- Added note and details steps to site plan Duck bank line command.
+
+### Improvements
+- Added 4 pole item to all one line disconnect switches.
+- Made lower case of list values for option window.
+- Added 'SURGE PROTECTION DEVICE' item to one line Pump Control Panel note.
+- Added 'Internal Space Heater' option in one line MCC and Switchboard.
+- Changed test ground well leader text to 'PROVIDE ONE (1) TEST GROUND WELL'.
+- Added units to 'Output Power' of generators.
+- Added 'BACKUP' to Back-Up Level Float Switch one line symbol.
+- Changed DB line thickness to 0.1 inch for Site Plan symbol.
+- Made 'VFD' and 'VFD Advanced' options to one line Motor Starter.
+- Added 'ONE LINE DIAGRAM' label as 4th step to Utility Transformer one line symbol.
+- Updated 'Submersible Cable Anchors' installation detail.
+
+### Bug Fixes
+- Fixed syntax errors in one line Pump Control Panel note.
+- Added '(' and ')' to motor (DUTY/STAND-BY) one line symbol.
+- Cable label for existing Back-Up Level Float Switch one line symbol.
+- Fixed "3CT's" for Switchboard and Motor Control Center one line symbols.
+
+
 ## [0.16.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.16.0.0) (2024-01-16)
 
 ### New Features
