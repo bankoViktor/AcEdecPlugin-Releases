@@ -1,5 +1,28 @@
 # Release Notes
 
+## [0.18.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.18.0.0) (2024-03-04)
+
+### New Features
+- Added command `RTUOL` for drawing Remote Terminal Unit (RTU) one line symbol.
+- Added command `RTUSP` for drawing Remote Terminal Unit (RTU) site plan symbol.
+- Added command `MATERIALSET` for drawing Material Schedule set.
+- Added internal RTU option for Pump Control Panel (Lift Station) one line symbol.
+
+### Improvements
+- Changed Junction Box one line note.
+- Renamed note category name 'GENERAL|TREATMENT PLANT|REQUIRED' to 'GENERAL|FOR MATERIAL SCHEDULE|..'.
+- Renamed note category name '..|REQUIRE' to '..|REQUIRED'.
+- Added note item 'ONE (1) 480V, 20A, 3P CIRCUIT BREAKER FOR ELECTRIC CRANE' to Pump Control Panel one line symbol.
+- Added 'TRANSFORMER CONCRETE PAD' leader to Utility Transformer site plan symbol.
+
+### Bug Fixes
+- Fixed scale format for 'SIZE PLAN' to '1/16" - 1'-0"'.
+- Fixed note numbers for Motion Sensor and Time Delay Switch for Security Light site plan symbol.
+- Fixed duplicate notes for Motion Sensor and Time Delay Switch for Security Light site plan symbol.
+- Fixed synt. errors in Security Light Wooden Pole Detail.
+- Fixed site plan Utility Transformer leader to 'PAD MOUNTED UTILITY TRANSFORMER (NOTE X1)'.
+
+
 ## [0.17.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.17.0.0) (2024-02-12)
 
 ### New Features
