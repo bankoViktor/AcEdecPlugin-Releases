@@ -1,5 +1,34 @@
 # Release Notes
 
+## [0.18.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.18.1.0) (2024-04-04)
+
+### New Features
+- Added command `SEALOFFOL` for drawing Seal-Off one line symbol.
+- Added font size changing in Notes window.
+- Added translation of notes to the Notes window.
+- New declaration of plugin tabs in the ribbon.
+
+### Improvements
+- Changed description for test ground well to 'PROVIDE ONE (1) TEST GROUND WELL' and disable `FRAME`.
+- Through numeration of circuit breakers in multi-section mini-panelboard schedule table.
+- Changed cable/conduit label format to double 'XX' for not confirmed values.
+- The color of the tags in the description of the submersible motor (LS) was set to red.
+- Changed cable/conduit label for submersible motor to '2 RUNS OF CABLE BY VENDOR IN XX" C. EACH (TYP. FOR XX)'.
+- Added checkbox for optional drawing grounding ring for stationary generator for site plan.
+- Added dimentions in Wetwell/Vault one line command.
+- Added 'SEE PANELBOARD SCHEDULE ON THIS SHEET' to Full Panelboard one line symbol.
+- Notification per available update by changing 'Check update' button icon.
+- Changed color for 'FUTURE CONNECTED LOAD' and 'FUTURE RUNNING LOAD' for Full Panelboard one line symbol.
+
+### Bug Fixes
+- Fixed errors for `SSSERVERPUBLISH` command.
+- Fixed wrong RTU antenna (radio and cellular).
+- Fixed wrong 'MAGNETIC WARNING TAPE' text position in Duct Bank grade.
+- Fixed syntax error 'SLEEVE' in Generator Receptacle (one line) note.
+- The color of reference cable type label changed.
+- Fixed text position in Motor Starter one line component.
+
+
 ## [0.18.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.18.0.0) (2024-03-04)
 
 ### New Features
