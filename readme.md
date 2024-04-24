@@ -1,5 +1,38 @@
 # Release Notes
 
+## [0.19.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.19.0.0) (2024-04-24)
+
+### New Features
+- Added the Gray Color tool.
+- Added video tutorials: 'Как добавить Site Plan на чертеж' and 'Лечение Add ON Удаление не нужных вкладок'.
+
+### Improvements
+- Enhanced the ribbon initialization and handling workspace changing.
+- Set color of '30mA' in MPZ and Panelboard Schedules.
+- Added auto disable `FRAME` for Ductbank Line command.
+- Show limit values for the Cable Schedule Table and incresed max value to 75 rows.
+- Added 'AND INSTALL' to note of SPD.
+- Changed cable labels for the Motor and the Motor (LS) one line symbols.
+- Added RTU into Pump Control Panel one line symbol.
+- Added reference cable labels for RTU and RTU in PCP one line symbols.
+
+### Bug Fixes
+- Fixed note translation errors.
+- Remove unused layer from Detail Label block.
+- Fixed syntax error in Natural Gas Stationary Generator note.
+- Fixed syntax error in Bottom CB for MCC and Switchboard.
+- Fixed text position in Control Panel one line component.
+- Fixed layer for wetwell/vault site plan and one line diagram elements.
+- Fixed 'XX' in cable label for RTU.
+- Fixed graphic connection SPD to CB SER and DS Fused SER for one line symbols.
+- Fixed note of the Junction Box one line symbol.
+- Fixed notes of Security Light for site plan symbols.
+- Fixed note of Ductbank Line site plan symbol.
+- Fixed note of Flow Indication Transmitter one line symbol.
+- Fixed loads text for Switchboard and MCC one line symbols.
+- Fixed error on open tutorials window.
+
+
 ## [0.18.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.18.1.0) (2024-04-04)
 
 ### New Features
