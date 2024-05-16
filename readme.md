@@ -1,5 +1,32 @@
 # Release Notes
 
+## [0.20.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.20.0.0) (2024-05-16)
+
+### New Features
+- Implemented the placement mechanism (palette of parameters).
+- Added command `SWITCHBOARD_CB` for drawing of Circuit breaker device of Switchboard one line symbol.
+- Added command `SWITCHBOARD_SPACE` for drawing of Space circuit breaker device of Switchboard one line symbol.
+- Added command `SWITCHBOARDSP` for drawing of Switchboard site plan symbol.
+- Added command `MCC_SPACE` for drawing of Space devices of Motor Control Center one line symbol.
+- Added command `MCCSP` for drawing of Motor Control Center site plan symbol.
+- Added command `GNDBUILDINGSP` for drawing of Building Grounding site plan symbol.
+
+### Improvements
+- Changed dimention label ("4' MIN" on "4 FT MIN") for Equipment Rack site plan symbol.
+- Formatted detail 'Bonding Lugs and Plates'.
+- Added button to ribbon for Poratable Generator (Trailer Mounted) one line symbol.
+- Removed quantity of ground rods in grounding notes.
+- Changed item of Pump Control Panel note to '120V, 5A RATED DRY CONTACTS AND SIGNALS PREWIRED TO FIELD TERMINALS'.
+- Changed command name `MOTORCONTROLCENTEROL` to `MCCOL` of Motor Control Center one line symbol.
+- Changed command name `GNDSP` to `GNDTRIANGLESP` of Grounding site plan symbol.
+- Added symbols 'GROUND BUS BAR' and 'BUILDING CONNECTION' to the `GROUNDING_SYMBOLS_*` block.
+- Added details steps to Triangle Grounding site plan symbol.
+
+### Bug Fixes
+- Fixed SPD button name.
+- Fixed error witch doesn't show a folder of the plotted file after plotting.
+
+
 ## [0.19.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.19.0.0) (2024-04-24)
 
 ### New Features
