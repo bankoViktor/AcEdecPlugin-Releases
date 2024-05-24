@@ -1,5 +1,30 @@
 # Release Notes
 
+## [0.21.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.21.0.0) (2024-05-24)
+
+### New Features
+- Added command `GNDEXISTINGSP` for drawing of Existing Grounding site plan symbol.
+- Added command `GNDMOTORFRAMESP` for drawing of Motor Frame Grounding site plan symbol.
+- Added command `LIGHTINGCONTACTOROL` for drawing of Lighting Contactor one line symbol.
+- Added command `LIGHTINGCONTACTORSP` for drawing of Lighting Contactor site plan symbol.
+- Added command `DISCHARGEPRESSURETRANSMITTEROL` for drawing of Discharge Pressure Transmitter one line symbol.
+- Added command `DISCHARGEPRESSURETRANSMITTERSP` for drawing of Discharge Pressure Transmitter site plan symbol. 
+- Added command `SPDOL` for drawing of Surge Protection Device one line symbol.
+
+### Improvements
+- Added 'Equipment Rack' paramerter in the Power Meter site plan symbol.
+- Added 'Passive Filter' list item to 'Line Reactor/Filter' parameter of the MCC VFD device one line symbol.
+- Added 'VFD Torque Type' parameter of the MCC VFD device one line symbol.
+- Added VFD Torque Legend step of the MCC VFD device one line symbol.
+- Renamed the 'MATERIAL' ribbon tab to 'MISCELLANEOUS'.
+- Added new symbol and parameters for VFD to `MOTORSTARTEROL` command.
+- Added 'Concrete Pad' parameter to Equipment Rack site plan symbol.
+- Added 'Switchboard' and 'MCC' panels to the 'SITE PLAN' tab of ribbon.
+- Added 'RVSS Bypass Contactor' parameter (for RVSS motor starter type) for Enclosed Motor Starter one line symbol.
+- Added 'Quantity' parameter for Conductors Schedule Table.
+- Added range to titles of number parameters.
+
+
 ## [0.20.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.20.0.0) (2024-05-16)
 
 ### New Features
