@@ -1,5 +1,49 @@
 # Release Notes
 
+## [0.22.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.22.0.0) (2024-06-14)
+
+### New Features
+- Added command `GNDSYMBOLS` for drawing Grounding Symbols.
+- Added command `REVISION` for drawing Revision clouds and revision titles.
+- Added command `MOTORSP` for drawing Motor and sensors site plan symbols.
+- Added command `DISCONNECTSWITCHSP` for drawing Disconnect Switch site plan symbol.
+- Added command `DISCONNECTSWITCHFUSESP` for drawing Fused Disconnect Switch site plan symbol.
+- Added command `DISCONNECTSWITCHFUSESERSP` for drawing Fused Disconnect Switch SER site plan symbol.
+- Added command `HANDSTATIONOL` for drawing Hand Station (Emergency Stop Push Button) one line symbol.
+- Added command `HANDSTATIONSP` for drawing Hand Station (Emergency Stop Push Button) site plan symbol.
+- Added command `MOTORSYMBOLS` for drawing Motor and Instrument site plan symbols.
+
+### Improvements
+- Added '(VFD SHIELDED)' to conductor label for VFD (MCC) and Enclosed Motor Starter (VFD type).
+- Changed Automatic Transfer Switch (SER) one line symbol.
+- Added second connection grounding to fence.
+- Added grounding notes.
+- Changed 'GND Size' and added 'Exisitng' parameters to Motor Frame Grounding.
+- Renamed 'Existing Grounding' to "Grounding Multi Tool" and added 'Existing' parameter.
+- Changed 'EXISTING' in notes for 'Motor Frame Grounding' and 'To Ground Grid'.
+- Changed line type for Vendor's cables/conduits.
+- Added 'MB Amperage' parameter to Grounding Triangle site plan symbol.
+- Added 'AWG' to note of Grounding one line symbol.
+- Changed minimal grounding conductor size to #1.
+- Changed radius site plan symbols: Motor - 0.15" and Instrument - 0.1".
+- Changed Discharge Pressure Transducer installation detail.
+- Changed ('WITH GASKET' added and others) Meterial Schedule Tables.
+- Added option parameters (Junction Box and Disconnect Switch connection) for Submersible Pump site plan symbol.
+- Added option parameters (Junction Box connection) for Level Float Switches site plan symbol.
+- Added option parameters (Junction Box connection) for Level Pressure Transducer site plan symbol.
+- Added option parameters (Junction Box connection) for Back Up Level Float Switches site plan symbol.
+- Added option parameters (Junction Box connection) for Level Sensor Probe site plan symbol.
+- Added presets of conduits notes to Duct Bank Text command.
+- Changed notes of Pump Control Panel (LS).
+
+### Bug Fixes
+- Fixed grounding 10 ft copper ground rod size.
+- Fixed leader position of test ground well.
+- Fixed abort command after note step for Grounding Triangle site plan symbol.
+- Fixed "FOR POWER AND CONTROLS (PB-P-SCRN) AND SIGNALS (PB-S-SCRN)" in the Pull Boxes note in the "ELECTRICAL SITE PLANS -> POWER PLANS" category.
+- Changed "FUSIBLE" to "FUSED" for Disconnect Switches.
+
+
 ## [0.21.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.21.0.0) (2024-05-24)
 
 ### New Features
