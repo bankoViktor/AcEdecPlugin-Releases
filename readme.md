@@ -1,5 +1,38 @@
 # Release Notes
 
+## [0.23.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.23.0.0) (2024-07-01)
+
+### New Features
+- Added command `RECEPTACLEOL` for drawing Receptacle one line symbol.
+- Added command `RECEPTACLESP` for drawing Receptacle site plan symbol.
+- Added command `POWEREQUIPSYMBOLS` for drawing Power Equipment Symbols.
+- Added command `BYPASSPUMPOL` for drawing Bypass Pump one line symbol.
+- Added command `BYPASSPUMPSP` for drawing Bypass Pump site plan symbol.
+- Added command `OBSTRUCTIONLIGHTCONTROLLEROL` for drawing Obstruction Light Controller one line symbol.
+- Added command `OBSTRUCTIONLIGHTCONTROLLERSP` for drawing Obstruction Light Controller site plan symbol.
+- Added save/restore parameter name column width in palette of insertion parameters.
+- Added Existing Utility Service Upgrade note to the Notes tool.
+
+### Improvements
+- Changed the note of one line grounding.
+- Changed Security Light installation detail ('FROM POWER SOURCE'). 
+- Added 'RADIO TOWER' to radio antenna leader of RTU one line symbol.
+- Changed color of part of notes, about separate conduit for signals cables.
+- Removed 'Company Name' parameter for Utility Transformer one line symbol.
+- Added 'Service Upgrade' for existing Utility Transformer one line symbol.
+- Removed 'One Line Diagram' detail label for Utility Transformer one line symbol.
+- Added parameter 'PIT/SS' for Level Pressure Transducer one line and site plan symbol.
+
+### Bug Fixes
+- Fixed syntax error in Surge Suppressor note.
+- Fixed NEMA rating (NEMA 4X) for Surge Suppressors.
+- Fixed format of prompt text for installation details.
+- Fixed color of Level Float Switch (and Backup).
+- Fixed parameters for Manhole and Handhole one line symbols.
+- Fixied ('WILL' to 'TO') Generator legend.
+- Fixed conduit size for Conduit Text command.
+
+
 ## [0.22.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.22.0.0) (2024-06-14)
 
 ### New Features
