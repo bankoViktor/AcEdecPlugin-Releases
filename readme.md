@@ -1,5 +1,11 @@
 # Release Notes
 
+## [0.23.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.23.1.0) (2024-07-02)
+
+### Bug Fixes
+- Fixed orientation of the receptacles one line symbol.
+
+
 ## [0.23.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.23.0.0) (2024-07-01)
 
 ### New Features
