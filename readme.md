@@ -1,5 +1,31 @@
 # Release Notes
 
+## [0.24.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.24.0.0) (2024-07-26)
+
+### New Features
+- Added command `STORAGETANKINTERIORLIGHTS` for drawing Storage Tank Interior Lights site plan symbols.
+- Added command `STORAGETANKLOGOLIGHTS` for drawing Storage Tank Logo Lights site plan symbols.
+- Added command `GNDPIGTAILSP` for drawing Grounding Pigtail (for Future Grounding Connection) site plan symbols.
+- Added command `STUBUP` for drawing Stub-Up symbol.
+- Added command `LIGHTSYMBOLS` for drawing Light symbols.
+- Added command `LINESSP` for drawing various line types.
+
+### Improvements
+- Added Grounding Pigtail (for Future Grounding) Connection symbol for Grounding Multi Tools.
+- Removed float for activate alarm horn and strobe from Bypass one line Note.
+- Fixed tag for Panelboard Full one line symbol.
+- Changed motor tags Motor one line symbol.
+- Removed material from the Submersible Pressure Transducer installation detail.
+- Changed "NEMA 4X SS" to "NEMA 4X STAINLESS STEEL" for Stationary Generator one line symbol.
+- Changed receptacle name 'Heat Trace (By-Pass Connection)' for Receptacle one line and site plan symbols.
+- Removed 'FOR (WITH SUN SHIELD)' in 'INDICATING LIGHTS' for one line Pump Control Panel note.
+
+### Bug Fixes
+- Fixed Emergency Push Button drawing for Stationary Generator one line symbol.
+- Fixed syntax errors.
+- Fixed missing back bracket in 'IF REQUIRED'.
+
+
 ## [0.23.1.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.23.1.0) (2024-07-02)
 
 ### Bug Fixes
