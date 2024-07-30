@@ -226,8 +226,8 @@
 ## [0.18.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.18.0.0) (2024-03-04)
 
 ### New Features
-- Added command `RTUOL` for drawing Remote Terminal Unit (RTU) one line symbol.
-- Added command `RTUSP` for drawing Remote Terminal Unit (RTU) site plan symbol.
+- Added command `RTUOL` for drawing Remote Telemetry Unit one line symbol.
+- Added command `RTUSP` for drawing Remote Telemetry Unit site plan symbol.
 - Added command `MATERIALSET` for drawing Material Schedule set.
 - Added internal RTU option for Pump Control Panel (Lift Station) one line symbol.
 
