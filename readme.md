@@ -1,5 +1,30 @@
 # Release Notes
 
+## [0.25.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.25.0.0) (2024-08-10)
+
+### New Features
+- Added 'THE' to Material Schedule Note.
+- Added command `CLASSIFIEDAREAOL` for drawing Classified Area one line symbols.
+- Added command `CLASSIFIEDAREASP` for drawing Classified Area size plan symbols.
+
+### Improvements
+- Changed content of Wetwell/Vault one line and site plan symbols.
+- Added note in Demolition Legend one line symbol.
+- Changed note ([CITY], [COUNTY], [OWNER]) in 'GENERAL|FOR MATERIAL SCHEDULE|REQUIRED' category.
+- Fixed 'SCOPE' note in 'GENERAL|FOR MATERIAL SCHEDULE|REQUIRED' category.
+- Added part of about aluminum steps to generator notes.
+- Added 'FROM/TO' additions for I/O's to the Remote Telemetry Unit notes.
+- Added RTU brand 'High Tide Technoligies' to Remote Telemetry Unit and Lift Station Pump Control Panel one line symbols.
+- Added RTU type 'Cellular (By Zile Technology)' to Remote Telemetry Unit and Lift Station Pump Control Panel one line symbols.
+- Changed Aluminum Security Lighting Pole detail.
+
+### Bug Fixes
+- Fixed long time insertion of detail.
+- Fixed graphics of the 'Bonding Lugs and Plates' detail.
+- Fixed duplications notes for site plan commands.
+- Fixed properties visible for Remote Telemetry Unit and Lift Station Pump Control Panel one line symbols.
+
+
 ## [0.24.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.24.0.0) (2024-07-26)
 
 ### New Features
