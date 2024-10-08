@@ -1,5 +1,66 @@
 # Release Notes
 
+## [0.26.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.26.0.0) (2024-10-08)
+
+### New Features
+- Added note ('SHELF SPARE VFD') to the note dictionary.
+- Added "Lighting Recomendation" table to tutorial materials.
+- Added command `LEGENDWD` for drawing Terminals Legend for wiring diagram.
+- Added command `WIRINGCONTROLWD` for drawing Control Wiring for wiring diagram.
+- Added command `WIRINGSIGNALWD` for drawing Signal Wiring for wiring diagram.
+- Added command `WIRINGPOWERWD` for drawing Power Wiring for wiring diagram.
+- Added command `WIRINGETHERNETWD` for drawing Ethernet Wiring for wiring diagram.
+- Added command `WIRINGFIBEROPTICWD` for drawing Fiber Optic Wiring for wiring diagram.
+- Added command `EQUIPMENTWD` for drawing Empty Equipment for wiring diagram.
+- Added command `DISCONNECTSWITCHWD` for drawing Disconnect Switch wiring diagram.
+- Added command `JUNCTIONBOXWD` for drawing Junction Box for wiring diagram.
+- Added command `PLANTSCADAWD` for drawing Plant SCADA for wiring diagram.
+- Added command `CONTROLPANELWD` for drawing Control Panel for wiring diagram.
+- Added command `RTUWD` for drawing Remote Telemetry Unit for wiring diagram.
+- Updating 'gray' color of entities in current space.
+
+### Improvements
+- Removed specific rod quantity and size wire in the Generator Grounding installation detail.
+- Added note for existing Stationary and Walk-In Generators one line symbols and the note dictionary.
+- Hide 'Enclosure Type' parameter for existing Stationary Generator one line symbol.
+- Added note for existing non-relocated cellular Remote Telemetry Unit one line symbol.
+- Fixed dimension values and add notes to Duct Bank installation details.
+- Reworked "Cables Installation Coming From Classified Area" (Air Gap) installation detail.
+- Separate notes for conduit air gap and separate conduit for signal cables.
+- Updated "gray" elements in follow installation details:
+	- Generator Grounding,
+	- Equipment Rack,
+	- Security Light Poles,
+	- Security Light Pole Base,
+	- Submersible Cable Anchors,
+	- Submersible Pressure Transducer,
+	- Storage Water Tank,
+	- Dry Transformer and
+	- Sun and Rain Hood.
+- Continuous numeration of name of the output pdf-files, where comparing by name starting with `XXXXX_<YY>`, where: `XXXXX` - project number and `YY` - order number of the file, chars after `YY` no affect.
+- Excluded sheets and subsets in sheetset which marked as 'don't plot', from plotting process via 'plot to server' command.
+- Changed label FIT/SS and PIT/SS.
+- Added dynamic block for Conductor/Conduit Schedule Table.
+- Added 'Type' parameter with value 'Rows' for drawing Conductor/Conduit Schedule Table rows.
+- Changed wire labels to 'VENDOR CABLE' and 'EXISTING CABLE(S)/CONDUIT(S)'.
+- Changed Obstruction Light Controller wiring diagram detail.
+- Changed Lighting Contactor wiring diagram detail.
+- Changed Photo Cell with Motion Sensor wiring diagram detail.
+
+### Bug Fixes
+- Fixed errors in the notes dictionary.
+- Added "EACH" to conductor label for Remote Telemetry Unit one line symbol.
+- Fixed error in brand name of the Remote Telemetry Unit one line symbol.
+- Fixed display error message.
+- Fixed long insertion of "Bonding Lugs and Plates" installation detail.
+- Fixed missed punctuation signs in Material Schedule Note.
+- Fixed error in name of "Non-Reinforced Duct Bank" installation detail.
+- Fixed leader text in Wetwell/Vault one line command.
+- Fixed plotting to server error because the layout name in sheet set and layout name in drawing whith it reference, was diffrent.
+- Fixed visibility the 'Main Circuit Breaker Size' paramerter in Mini-Panelboard one line symbol.
+- Fixed MLO label for Mini-Panelboard one line symbol and Panelboard schedules.
+
+
 ## [0.25.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.25.0.0) (2024-08-10)
 
 ### New Features
