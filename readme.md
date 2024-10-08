@@ -1,3 +1,5 @@
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/bankoViktor/AcEdecPlugin-Releases/total?style=for-the-badge) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/bankoViktor/AcEdecPlugin-Releases/latest/total?style=for-the-badge)
+
 # Release Notes
 
 ## [0.26.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.26.0.0) (2024-10-08)
