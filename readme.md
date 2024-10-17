@@ -2,6 +2,51 @@
 
 # Release Notes
 
+## [0.27.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.27.0.0) (2024-10-18)
+
+### Improvements
+- Added 'Door Mounted' symbol to wiring diagram legend.
+- Changed some icons.
+- Changed Junction Box description for wiring diagram.
+- Changed Terminal block to Terminal Bar block for Disconnect Switch for wiring diagram.
+- Added wiring to Disconnect Switch for wiring diagram.
+- Added units format `XX'-XX"` to some notes.
+- Updated Equipment Rack installation details.
+- Added process name brace to Control ans Signal wiring commands for wiring diagram.
+- Added updating Gray color changing for Table entity.
+- Remove spaces for transformer & generator descriptions.
+- Update existing cable/conduit labels.
+- Added 'Recomended Primary CB' and 'Recomended Secondary CB' parameters to Dry-Transformer one line symbols.
+- Replaced Time Delay symbol for Security Light one line graphics.
+- Added 'Break Line' parameter to Equipment of wiring diagram.
+- Changed Security Light graphics for one line and site plan and details.
+- Renamed "NEMA Rating" parameter to "Enclosure NEMA Rating" for MCC and Switchboard one line symbols.
+- Added CB amperage for power source is Control Panel for Power Wiring.
+- Added Normally Open and Normally Closed type for terminal dry contact for Wiring diagram.
+- Added "Protocol' parameter to Ethernet Wiring.
+- Added "Bus Material" parameter to Panelboards, Mini-Power Zone, Switchboard and Motor Control Center one line symbols.
+- Added 'Drawout' parameter for ICCB for Switchboard one line symbol.
+- Added 'Full Description' parameter for Disconnect Switch for wiring diagram.
+
+### Bug Fixes
+- Fixed highlight of cable size of non-power wiring label.
+- Fixed wrong terminal name of shielded wire.
+- Fixed Disconnect Switch tag and description for wiring diagram.
+- Fixed Disconnect Switch height (with DS status contact) for wiring diagram.
+- Fixed skip space in note for site plan Equipment Rack graphics (with concrete pad).
+- Fixed position of wiring diagram of motion sensor & time delay for Security Light.
+- Fixed units and errors in installation details.
+- Fixed AIC Rating paramter names.
+- Fixed drawout wires typeline in MCC one line symbol.
+- Fixed overlay of Kirk-Key text and Power Meter text in MCC one line symbol.
+- Fixed missed wire cross connection dot for 'Main Lugs Only' option in Switchboard and Motor Control Center one line symbols.
+- Fixed notes for Switchboard and Motor Control Center one line symbols.
+- Fixed swapped orientation of Receptacles one line symbol.
+- Fixed drawout graphics for MCCB for Switchboard one line symbol.
+- Fixed terminal type for Disconnect Switch for wiring diagram.
+- Fixed wire quantity for Power Wiring.
+
+
 ## [0.26.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.26.0.0) (2024-10-08)
 
 ### New Features
