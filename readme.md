@@ -2,6 +2,49 @@
 
 # Release Notes
 
+## [0.28.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.28.0.0) (2024-11-07)
+
+### New Features
+- Added command `SWITCHESWD` for drawing Switches for wiring diagram.
+- Added command `FITMAGNETICWD` for drawing Magnetic Flow Meter for wiring diagram.
+- Added command `FITVENTURIWD` for drawing Venturi Flow Meter for wiring diagram.
+- Added schematic wiring diagram detail label to second step of Legend of the wiring diagram.
+- Added command `EQUIPMENTSP` to site plan.
+- Added command `CONCRETEBOLLARDSP` for drawing Concrete Bollard for site plan.
+- Added new 'MOTOR ELEMENTARY DIAGRAM' tab to the ribbon.
+- Added command `SYMBOLSMED` for drawing symbol block for Motor elementary diagram.
+- Added command `TIMEDELAYSYMBOLSMED` for drawing Time Delay symbol block for Motor elementary diagram.
+- Added command `SENSORSYMBOLSWD` for drawing Sensor and Switches symbol block for Wiring diagram.
+- Added command `INPUTSYMBOLSWD` for drawing Button and Toggle switches symbol block for Wiring diagram.
+
+### Improvements
+- Added colored conduit size for Power Wiring command.
+- Added 'POWER' text (for power source side) and set the CB text right aling for power connection when powered by Control Panel.
+- Changed process description placeholder text.
+- Added MPZ power source option to Power Wirings.
+- Renamed bus material option name Cuprum to Copper.
+- Added vertical lines (on defpoint layer) to Junction Box block for wiring diagram.
+- Added update polyline color per gray color changed.
+- Added 'AS PER MATERIALS SCHEDULE ON DWG. E-XXX' option to the Equipment Rack Installation Details.
+- Added notes 2, 3 and 4 to the 'INSTRUMENTATION AND CONTROLS', note 12 to 'GENERAL', and changed notes 13
+and 14 in 'POWER DISTRIBUTION AND CONDUITS INSTALLATION REQUIREMENTS' of the Material Schedule notes.
+- Renamed Handhole to Underground Pull Box site plan command.
+- Added 'Main #1' and 'Main #2' labels and double grounding connections to Motor Control Center and Switchboard site plan symbols.
+- Changed Lighting Contactor Schematic, added pole contactor block.
+- Added 'CEMENT BOLLARDS (TYPICAL FOR XX)' leader to Wetwell/Vault site plan command.
+- Updated all wiring diagram to new blocks.
+- Updated Schematic Wiring diagram of Ligting Contactor.
+
+### Bug Fixes
+- Fixed crash application on 0 of input and output quantity of Control and Signal wiring.
+- Fixed reference label letter & number for Circuit Breaker (SER) and Disconnect Switch (SER) one line diagram.
+- Fixed NEMA rating default value for Circuit Breaker (SER) one line diagram.
+- Fixed the position of Ground Rods for Triangle Grounding command.
+- Fixed wire line length for Control and Signal wiring commands.
+- Fixed color of lights (to red) in Obstruction Lights Controller wiring diagram.
+- Fixed parameter name to Deep for Equipment, Switchboard and MCC site plan commands.
+
+
 ## [0.27.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.27.0.0) (2024-10-18)
 
 ### Improvements
