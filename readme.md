@@ -2,6 +2,26 @@
 
 # Release Notes
 
+## [0.29.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.29.0.0) (2024-12-19)
+
+### New Features
+- Added command `DETAILLABELMED` for drawing Detail Label block for Elementary Diagram.
+- Added command `MOTORWD` for drawing Motor for wiring diagram.
+- Added symbols: overload, transformer to Elementary Diagram symbols block.
+- Added symbol time delay relay to Elementary Diagram time delay symbols block.
+- Added 'Vfd Shielded Cable' parameter for Power Wiring.
+
+### Improvements
+- Added 'INCLUDE FEED THROUGH LUGS' for Main Lugs Only to Mini Panelboard scheudles.
+- Added block real dimensions for Disconnect Switches for site plan.
+
+### Bug Fixes
+- Fixed '2-runs of ...' wiring label if motor horsepower more or equals 100, for the Motor and the Lift Station Motor for one line.
+- Removed Low Fuel Level signal for Natural Gas generator note.
+- Fixed Dry Transformer sizes for site plan.
+- Fixed position of 'Dimensions' parameter for Disconnect Switch SER for site plan.
+
+
 ## [0.28.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.28.0.0) (2024-11-07)
 
 ### New Features
