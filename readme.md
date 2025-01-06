@@ -2,6 +2,30 @@
 
 # Release Notes
 
+## [0.30.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.30.0.0) (2025-01-06)
+
+### New Features
+- Added line types: Lightning Protection and Exposed Grounding.
+- Added note for Manual, Automatic and Non-Automatic Transfer Switch symbols for one line diagram.
+- Added command `MOTORSYMBOLSWD` for drawing Motor Symbols for Wiring Diagram.
+
+### Improvements
+- Changed 'feet-inch' format for Classified Area for site plan graphics.
+- Changed 50' to 4'-2" for Grounding of Material Set note.
+- Added 'Remote Commination' parameter to SCADA Panel for wiring diagram.
+- Added 'Modifications' parameter for notes Remote Telemetry Unit symbols.
+- Aligned wire line length for Submersible Pump, Level Pressure Transducer and Level Float Switches symbols for one line diagram.
+
+### Bug Fixes
+- Fixed ethernet wire length for Wiring Diagram.
+- Fixed unnecessary equipment for Motor for Wiring Diagram.
+- Fixed empty lines for Material notes.
+- Fixed red color cell for Material Set tables.
+- Removed 'Low Fuel Level Alarm' signal for natural gas Stationary Generator one line symbol.
+- Fixed internal RTU note number for Lift Station Pump Control Panel for one line diagram.
+- Fixed CB position in MCC, Full Panelboard and Switchboard for one line diagram.
+
+
 ## [0.29.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.29.0.0) (2024-12-19)
 
 ### New Features
