@@ -2,6 +2,45 @@
 
 # Release Notes
 
+## [0.31.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.31.0.0) (2025-03-19)
+
+### New Features
+- Added command `CABLESIZING` for calculate cable size.
+- Added command `HVAC_UH_OL` for drawing Unit Heater for one line diagram.
+- Added command `HVAC_UH_SP` for drawing Unit Heater for site plan.
+- Added command `HVAC_HP_OL` for drawing Outdoor Heat Pump for one line diagram.
+- Added command `HVAC_HP_SP` for drawing Outdoor Heat Pump for site plan.
+- Added command `HVAC_WHP_OL` for drawing Wall Mounted Heat Pump for one line diagram.
+- Added command `HVAC_WHP_SP` for drawing Wall Mounted Heat Pump for site plan.
+- Added command `HVAC_RTU_OL` for drawing Packaged Rooftop Unit for one line diagram.
+- Added command `HVAC_RTU_SP` for drawing Packaged Rooftop Unit for site plan.
+- Added calculated conductors sizing labels for Mini-Power Zone for one line diagram.
+
+### Improvements
+- Removed '80% RATED' label of the circuit breaker of the Stationary Generator for one line diagram.
+- Added 'SPARE' parameter to CB, FVR, FVNR, RVSS and VFD for MCC for one line diagram.
+- Added 'None' option for 'Modifications' parameter of the Remote Telemetry Unit for one line and wiring diagram.
+- Replaced 'SS' to 'STAINLESS STEEL' in note of the Mini-Power Zone for one line diagram.
+- Done smart configurator (added interlocks and calculation Amps/CB) for Dry-Transformer for one line diagram.
+- Updated generator receptacle note.
+- Item 'Wireless' of note for SCADA panel for wiring diagram.
+- Changed grounding note of the material note to 'ALL UNDERGROUND CONNECTIONS SHALL BE EITHER MADE WITH EXOTHERMIC WELDS OR CRIMP CONNECTORS.'.
+- Changed Manual Transfer Switch, Non-Fused (Double-Throw) dimensions for site plan.
+- Replaced 'FURNISH' to 'PROVIDE' in notes.
+- Added 'None' (as default) item to 'Protocol' parameter for Ethernet Wiring command for wiring diagram.
+- New groups of parameter for Mini-Power Zone for one line diagram.
+
+### Bug Fixes
+- Fixed not showing 'SPARE' text for Circuit breaker for Switchboard for one line diagram.
+- Fixed error for Manual Horsepower value out available range for selected Phase and Voltage parameters for Motor and Submersible Motor one line diagram.
+- Fixed MPZ default value calculation.
+- Fixed phase nubmer for Generator cable label.
+- Fixed L-N voltage in panelboard schedule.
+- Fixed length units format in notes.
+- Trimmed top of the Dry-Transformer installation detail.
+- Renamed 'Bus Material' to 'Windings Material' for Transformer for one line diagram.
+
+
 ## [0.30.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.30.0.0) (2025-01-06)
 
 ### New Features
