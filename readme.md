@@ -2,6 +2,70 @@
 
 # Release Notes
 
+## [0.32.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.32.0.0) (2025-04-28)
+
+### New Features
+- Added command `MCC_RVAT` for drawing RVAT starter for MCC for one line diagram.
+- Added command `RADIOTOWERSP` for drawing Radio Tower for site plan.
+- Added command `HEATTRACINGSP` for drawing Junction Box on equipment rack for Heat Tracing for site plan.
+- Added command `METERINGPUMPWD` for drawing Metering Pump for wiring diagram.
+- Added note to category 'ONE LINES' - 'MISCELLANEOUS' to notes collection.
+
+### Improvements
+- Added 'VD' to cable sizing insertion result if cable size was changed.
+- Added tag to motor description for wiring diagram.
+- Moved 'process description' above title for flow meters, motor for wiring diagram.
+- Changed signal name 'MOTOR WINDINGS HIGH TEMPERATURE STATUS' to 'MOTOR WINDINGS HIGH TEMPERATURE' for motor for wiring diagram.
+- Changed tag 'CP-XXX' to 'LCP-XXX' and note for SCADA panel wiring diagram.
+- Added 'Future' connection type to Power, Control and Signal Wiring for wiring diagram.
+- Changed CB 'CKT. XX' text to 'CB' and 'MCCB' for Power Wiring for wiring diagram.
+- Added asterisk ("Door mounted" means) for H-O-A toggle switch in Lighting Contactor wiring diagram.
+- Changed control panel notes.
+- Added range to parameters for Concrete Bollard (site plan) and Junction Box (wiring diagram).
+- Added auto update for the 'Voltage Drop - Load' parameter when the 'Feeder - SCP Size' parameter changes.
+- Added changing 120V or 240V of Block Heater for Stationary Generator when generator power equal and more 100kW.
+- Added separate category for Internal RTU in Pump Control Panel for one line diagram.
+- Added 'System Integrator' parameter for Build-In type Remote Telemetry Unit.
+- Added new dimensions for Dry-Transformer for site plan.
+- Changed buttons order in drop-menu for Transformers for one line diagram and site plan.
+- Changed buttons order in drop-menu for List Station for one line diagram and site plan.
+- Changed configurator and dimensions of Panelboard for site plan.
+- Added 'Max. Size Branch CB' parameter to Panelboard for one line diagram.
+- Added 'Connection Accessory' parameter (with values: None, Terminals, Circuit Breaker, Dry-Contact and Circuit Breaker with Dry-Contact) to Power Wiring for wiring diagram.
+- Added dynamic width of the cables text for wirings for wiring diagram.
+- Done the equal distances were made for the variant with Junction Box for wiring diagram.
+- Added the Control Relay parameter to Switches for wiring diagram.
+- Removed top/bottom break text of equipment for wiring diagram.
+- Added categories to HVAC drop-down menu for one line and site plan.
+- Added minimizing of the window when Place command activated in the Notes window.
+- Added automatic temporary turn on of node snap for drawing rows of Conductor Schedule Table.
+- Added numbers of rows for drawing rows of Conductor Schedule Table.
+- Added Shield Loop as dynamic block for wiring diagram.
+- Changed tags for equipment for Motor command for wiring diagram.
+- Fixed and improve graphics for Motor for  for wiring diagram.
+- Improved cable size calculation.
+- Changed prompt text for placement operation for some commands.
+
+### Bug Fixes
+- Fixed error for drawing 24VDC Power Wiring for wiring diagram.
+- Fixed insertion of cable size calculation (with voltage drop) into the drawing space.
+- Fixed layer for elements of the legend, terminal block and terminal bar block for wiring diagram.
+- Fixed 4'-2" to 50'-0" in material notes.
+- Fixed distance format in leader of the receptacle for the Portable Generator.
+- Fixed layers for Detail Mark block.
+- Fixed 'VFD Shielded Cable parameter name of Power Wiring for wiring diagram.
+- Fixed terminals position and junction box height for Float Switch for wiring diagram.
+- Fixed of power terminals type of the external surge suppressor of the Magnetic Flow Meter for wiring diagram.
+- Fixed color of table tags for more than 1 Magnetic Flow Meter for wiring diagram.
+- Fixed number of junction box category name for Switches for wiring diagram.
+- Fixed 'EXISTING' and 'FUTURE' in power source description for wiring diagram.
+- Fixed wrong insertion point for insert graphics.
+- Fixed graphics of Disconnect Switch and/or Junction Box for Motor graphic (with vendor cables) for wiring diagram.
+- Fixed of terminals type of Motor Heater for Motor command for wiring diagram.
+- Fixed calculation of the ground conductor size.
+- Fixed plotting error for unexpected project directories structure.
+
+
 ## [0.31.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.31.0.0) (2025-03-19)
 
 ### New Features
