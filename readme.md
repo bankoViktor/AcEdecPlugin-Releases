@@ -2,6 +2,39 @@
 
 # Release Notes
 
+## [1.0.1](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/1.0.1) (2025-07-30)
+
+### Changed
+- Removed button for go to releases.
+- Fixed missing libraries.
+
+
+## [1.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/1.0.0) (2025-07-30)
+
+### Added
+- 'EXISTING' to Switches for wiring diagram.
+- Command `ESIGN` for user authorization in the AutoCAD plugin.
+- Basic authentication system with login/password support.
+- Authorization mechanisms to control user access.
+- Interactive map displaying project locations with markers.
+- End User License Agreement (EULA) presented during installation process.
+
+### Changed
+- Dry-Contact for each phase conductor of Power Wiring for wiring diagram.
+- Default values ​​to 480VAC, 3PH for Power Wiring for wiring diagram.
+- Junction Box tag for Switches for wiring diagram.
+
+### Removed
+- Text '(BY VENDOR)' to under tag for Switches for wiring diagram.
+
+### Fixed
+- Wrong place in conductor for switch of Switches for wiring diagram.
+- Control Relay position for Switches for wiring diagram.
+- Color of Switches with ext. power for wiring diagram.
+- Text position for the Metering Pump without the receptacle for wiring diagram.
+- Layer of Classified Area elements for one line diagram.
+
+
 ## [0.32.0.0](https://github.com/bankoViktor/AcEdecPlugin-Releases/releases/tag/0.32.0.0) (2025-04-28)
 
 ### New Features
